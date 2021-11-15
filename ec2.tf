@@ -1,8 +1,8 @@
 ec2.tf
 
 provider  "aws" {
-  access_key = "AKIAYFLGAMTYJ2NHNWDN"
-  secret_key = "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"
+  access_key = ""
+  secret_key = ""
   region     = "us-east-1"
 }
 resource "aws_instance" "Jenkins_server" {
